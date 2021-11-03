@@ -9,7 +9,7 @@ First, you have to generate reports with kraken2 by using --report and --use-nam
 
 ### Using the script
 
-The script needs to arguments. First argument is the file, which will be used for the extraction. Second needs to be the desired level, like G, S, P, G1 etc...
+The script needs two arguments. First argument is the file, which will be used for the extraction. Second needs to be the desired level, like G, S, P, G1 etc...
 You can use multiple levels, separated by commas.
 
 Example:
