@@ -19,8 +19,10 @@ python3 kraken2simplify.py AB1-191021.kraken2report G,P,S,G1,F
 
 ```
 
-This command will create 5 different files, each containing the OTUs of given level. Example for genus:
+This command will create 5 different files, each containing the OTUs of given level.
+Example for genus:
 From this (AB1-191021.kraken2report):
+
  ```
  72.33  440048  440048  U       0       unclassified
  27.67  168354  0       R       1       root
@@ -33,7 +35,8 @@ From this (AB1-191021.kraken2report):
   5.33  32447   4268    G       286                   Pseudomonas
   2.01  12219   3539    G1      196821                  unclassified Pseudomonas
  ``` 
-  to this (AB1-191021.kraken2report.G_only.tsv):
+  to this:
+  (AB1-191021.kraken2report.G_only.tsv)
 
 ```
 Pseudomonas     32447
