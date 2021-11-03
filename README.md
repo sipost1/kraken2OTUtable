@@ -85,4 +85,4 @@ Shewanella      24114   24114
 ```
 
 ###### Notes
-The data here are from one file, I changed some values in EB1-* to get EB2 just to show how it works. It is good for many files too.
+The data here are from one file, I changed some values in EB1-* to get EB2 just to show how it works. It is good for many files too. Probably it works with Kraken 1 too, but I did not have the oppurtunity to try it.
