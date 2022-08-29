@@ -25,7 +25,7 @@ samples = []
 def read_file_2_dic(f):
 	"""Reads one file and adds the filename, taxonomy and read count to dic"""
 	
-	sample = f.split("_")[0]
+	sample = f.split(".")[0]
 	samples.append(sample)
 	
 	with open(f, "r") as source:
