@@ -40,7 +40,7 @@ python3 ./kraken2otu.py --inputfolder ./ --level g
 
 This command will create one file, containing the OTUs of given level.
 Example for genus:
-From this (AB1-191021.k2report):
+From this (EB1-211103.k2report):
 
 ```
  72.33  440048  440048  U       0       unclassified
@@ -60,7 +60,7 @@ From this (AB1-191021.k2report):
   (otu_table_G.tsv)
 
 ```
-#OTU    EB1-211103     EB2-211103
+OTU    EB1-211103     EB2-211103
 Pseudomonas     32447   67432
 Azotobacter     54      5324
 Permianibacter  13      621
@@ -72,6 +72,6 @@ Moraxella       70      70
 Shewanella      24114   24114
 ```
 
-###### Notes
+### Notes
 
 The data here are from one file, I changed some values in EB1-* to get EB2 just to show how it works. It works fast with many files too. Probably it works with Kraken 1 too, but I did not have the oppurtunity to try it.
