@@ -72,6 +72,11 @@ Moraxella       70      70
 Shewanella      24114   24114
 ```
 
+## Compatibility
+
+ - Bracken's reports also can be used as input.
+ - Probably it works with Kraken 1 too, but I did not have the oppurtunity to try it.
+
 ### Notes
 
-The data here are from one file, I changed some values in EB1-* to get EB2 just to show how it works. It works fast with many files too. Probably it works with Kraken 1 too, but I did not have the oppurtunity to try it.
+The data here are from one file, I changed some values in EB1-* to get EB2 just to show how it works. It works fast with many files too.
