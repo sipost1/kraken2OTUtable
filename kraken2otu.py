@@ -74,8 +74,7 @@ def read_in_files(directory: str, extension=args.extension) -> Dict:
 
     for file in report_files:
         file = os.path.abspath(file)
-        file_dictionary[os.path.basename(file).rstrip(
-            f"{extension}")] = extract(file)
+        file_dictionary[os.path.basename(file).removesuffix(extension)] = extract(file)
 
     return file_dictionary
 
